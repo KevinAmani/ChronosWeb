@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+@import url('https://fonts.googleapis.com/css?family=Germania+One|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Germania+One|Oswald:400,700|Rokkit');
+
+.blog_div{
+    margin-top: 100px; 
+}
+.blog_head{
+    
+}
+.blog_title{
+    margin: 40px;
+    font-size:6em;
+    font-family: 'Germania One';
+}
+.blog_subtitle{
+    margin: 50px;
+    font-size:1em;
+}
+.blog_abstract{
+    margin: 40px;
+    font-size:1.2em;
+}
+
+.blog_article{
+    margin-top:30px;
+    font-size:1.8em;
+}
+.blog_date{
+    font-size:1.3em;
+    font-family: 'Germania One';
+}
+.blog_author{
+    font-size:1.3em;
+    margin-top:40px;
+    font-family: 'Germania One';
+}
+.blog_citation{
+    margin:50px;
+}
+

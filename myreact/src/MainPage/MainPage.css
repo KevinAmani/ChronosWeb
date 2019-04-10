@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  position: absolute;
+  display: block;
+}
+
+
+/* MyMainPage */
+
+.Page {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow:hidden;
+}
+/* MyMainPage */
+.menu_button {
+ /* background:url(https://127.0.0.1:8443/img/menu_button.png);*/
+  position:sticky;
+  z-index:1000;
+  float:left;
+  height:250px;
+}
+
+.center_block{
+  position: absolute;
+  top:120px;
+
+  height:100%;
+  width:100%;
+  line-height:300px;
+  text-align:center;
+  vertical-align: middle;
+}
+
+/*tittle img*/
+.tittle_img{
+  vertical-align: middle;
+  width: 80%;
+  max-width: 900px;
+  min-width: 200px;
+
+}
+
+/*page_2*/
+.card_div{
+  position:relative;
+  float:left;
+  left:50%;
+}
+
+/*page_3*/
+.comment_form{
+  position:relative;
+  float:left;
+  left:50%;
+}
+
+/*Project*/
+.project_item{
+  height: 200px;
+}
+
+.center_block{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
