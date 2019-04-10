@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://jitrdb.ceefvfxtwwom.us-east-1.rds.amazonaws.com:3306/mydb</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+      <mapping class="com.bigdata.hibernate.Customer"/>
+    <mapping class="com.bigdata.hibernate.CustomerHasSchedule"/>
+    <mapping class="com.bigdata.hibernate.Profile"/>
+    <mapping class="com.bigdata.hibernate.Schedule"/>
+      <mapping class="com.bigdata.hibernate.Comment"/>
+      <mapping class="com.bigdata.hibernate_model.Comment"/>
+      <mapping class="com.bigdata.hibernate_model.Customer"/>
+      <mapping class="com.bigdata.hibernate_model.CustomerHasSchedule"/>
+      <mapping class="com.bigdata.hibernate_model.Profile"/>
+      <mapping class="com.bigdata.hibernate_model.Schedule"/>
+      <mapping class="com.bigdata.hibernate_model.ArticleCitation"/>
+      <mapping class="com.bigdata.hibernate_model.CustomerToTheProject"/>
+      <mapping class="com.bigdata.hibernate_model.ProjectArticle"/>
+      <mapping class="com.bigdata.hibernate_model.TheProject"/>
+      <mapping class="com.bigdata.hibernate_model.ProjectLabels"/>
+      <mapping class="com.bigdata.hibernate_model.TheProjectToLabels"/>
+      <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>
