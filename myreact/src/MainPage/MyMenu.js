@@ -10,7 +10,6 @@ import Container from './Container';
 import React, {Component} from 'react';
 import './MainPage.css';
 import './Config';
-import MyHeader from './MyHead';
 //The components of semantic-ui
 import {
     Transition,
@@ -52,14 +51,13 @@ export default class SidebarExampleTransitions extends Component {
                 <img src={global.constants.website+"logo4.png"} alt="logo" style={{top:"40px",height:"180px",left:"40px",position:"absolute"}}/>
             </Menu.Item>
             <Menu.Item as={Link} style={{fontSize:"1.3em"}} to="/">Home</Menu.Item>
-            <Menu.Item as={Link} style={{fontSize:"1.3em"}} to="/page_2">Developers</Menu.Item>
-            <Menu.Item as={Link} style={{fontSize:"1.3em"}} to="/page_3">Projects</Menu.Item>
+            <Menu.Item as={Link} style={{fontSize:"1.3em"}} to="/page_2">Projects</Menu.Item>
+            <Menu.Item as={Link} style={{fontSize:"1.3em"}} to="/page_3">Developer</Menu.Item>
             <Menu.Item as={Link} style={{fontSize:"1.3em"}} to="/page_4">Comment</Menu.Item>
             </Sidebar>
 
         <Sidebar.Pusher style={{width:"100%",position:"absolute",overflow:"sroll",height:"100%"}}>
                 <img className="menu_button" onClick={this.handleAnimationChange()} src={global.constants.website+"menu_button.png"}/>
-                <MyHeader/>
                 <Container/>
                 
         </Sidebar.Pusher>

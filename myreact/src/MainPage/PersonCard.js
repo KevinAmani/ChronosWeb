@@ -89,7 +89,7 @@ export default class ThePersonalCard extends Component{
                     description = {description}
                     extra = {this.extra}
                     raised={true}
-                    style={{marginTop:"100px", position:"relative",left:"-50%",textAlign:"initial"}}
+                    style={{marginTop:"150px", position:"relative",left:"-50%",textAlign:"initial"}}
                 />
             </div>
         ) 

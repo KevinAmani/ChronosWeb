@@ -16,7 +16,7 @@ export default class MyHeader extends Component{
 
         return (
         <Menu secondary>
-        <Menu.Menu position="left">
+        <Menu.Menu position="right">
             <Menu.Item name='home' active={activeItem === 'home'} onClick={this.handleItemClick} />
             <Menu.Item
             name='messages'
@@ -24,8 +24,8 @@ export default class MyHeader extends Component{
             onClick={this.handleItemClick}
             />
             <Menu.Item
-            name='friends'
-            active={activeItem === 'friends'}
+            name='schedule'
+            active={activeItem === 'schedule'}
             onClick={this.handleItemClick}
             />
         </Menu.Menu>

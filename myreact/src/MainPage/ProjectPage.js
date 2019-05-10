@@ -11,7 +11,8 @@ export default class ProjectPage extends Component{
   
     render(){
         return(
-          <Card.Group style={{position:"fixed",left:"55%",transform:"translate(-50%,0)",top:"150px",height:"100px"}}>
+
+          <Card.Group style={{position:"fixed",left:"55%",transform:"translate(-50%,0)",top:"20%",height:"500px",width:"1500px"}}>
             <MyProject project_name="project_1" project_description="hahahahahahkhakfhafk hkadfkad hfkaheufkadjfhaf" project_id="1"/>
             <MyProject project_name="project_2" project_description="hahahahahahkhakfhafk hkadfkad hfkaheufkadjfhaf" project_id="2"/>
             <MyProject project_name="project_3" project_description="hahahahahahkhakfhafk hkadfkad hfkaheufkadjfhaf" project_id="3"/>
